@@ -1,0 +1,40 @@
+﻿<Window x:Class="УМК_Цифра.myMessageBox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:УМК_Цифра"
+        mc:Ignorable="d"
+        Title="myMessageBox" Height="440" Width="670" ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <Image Source="Resources/Робот.jpg" HorizontalAlignment="Right" Grid.Column ="1"></Image>
+        <TextBlock Name="MessageContainer" TextWrapping="WrapWithOverflow" Margin="10" VerticalAlignment="Center" FontSize="40" TextAlignment="Center" Foreground="Black">
+            <TextBlock.Background>
+                <!--Настройки градиента-->
+                <RadialGradientBrush RadiusX="1" RadiusY="1" >
+                    <GradientStop Color="White" Offset="0.313" />
+                    <GradientStop Color="#FFC3BDBD" Offset="1" />
+                </RadialGradientBrush>
+            </TextBlock.Background>
+        </TextBlock>
+        <StackPanel Name="ButtonContainer" Grid.Row="1" Orientation="Horizontal"
+                    HorizontalAlignment="Center" Margin="10">
+            <StackPanel.Resources>
+                <Style TargetType="Button">
+                    <Setter Property="MinHeight" Value="25"/>
+                    <Setter Property="MinWidth" Value="75"/>
+                    <Setter Property="Margin" Value="10,0,0,0"/>
+                </Style>
+            </StackPanel.Resources>
+        </StackPanel>
+    </Grid>
+</Window>
