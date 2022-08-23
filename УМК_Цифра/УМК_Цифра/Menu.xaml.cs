@@ -25,6 +25,29 @@ namespace УМК_Цифра
             InitializeComponent();
             
         }
-        
+
+        private void Button_Click_Teorya(object sender, RoutedEventArgs e)
+        {
+            Teorya teorya = new Teorya();
+            teorya.Show();
+        }
+
+        private void Button_Click_Algoritm(object sender, RoutedEventArgs e)
+        {
+            Algoritm algoritm = new Algoritm();
+            algoritm.Show();
+        }
+
+        private void Button_Click_Result(object sender, RoutedEventArgs e)
+        {
+            Result result = new Result();
+            result.Show();
+        }
+
+        private void Button_Click_Control(object sender, RoutedEventArgs e)
+        {
+            Control control = new Control();
+            control.Show();
+        }
     }
 }

@@ -7,10 +7,22 @@
         mc:Ignorable="d"
         Title="Greetings" Height="450" Width="700"
         WindowStartupLocation="CenterScreen">
-    <Window.Background>
-        <ImageBrush ImageSource="Resources/скрин_привет.jpg" ></ImageBrush>        
-    </Window.Background>
+    
     <Grid>
-        <TextBlock>Hi</TextBlock>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <Image Source="Resources/Робот.jpg" HorizontalAlignment="Right" Grid.Column ="1"></Image>
+        <TextBlock TextWrapping="WrapWithOverflow" Margin="10" VerticalAlignment="Center" FontSize="24" TextAlignment="Center" Foreground="Black"
+        Text="Приветствую на цифровом производстве! Вы спросите, что мы будем оцифровывать? Выбор за Вами. Давайте посмотрим на план.">
+            <TextBlock.Background>
+                <!--Настройки градиента-->
+                <RadialGradientBrush RadiusX="1" RadiusY="1" >
+                    <GradientStop Color="White" Offset="0.313" />
+                    <GradientStop Color="#FFC3BDBD" Offset="1" />
+                </RadialGradientBrush>
+            </TextBlock.Background>
+        </TextBlock>
     </Grid>
 </Window>

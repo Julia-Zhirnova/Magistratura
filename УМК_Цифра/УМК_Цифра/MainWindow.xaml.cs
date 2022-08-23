@@ -24,23 +24,20 @@ namespace УМК_Цифра
         public MainWindow()
         {
             InitializeComponent();
-           // this.Closing += new System.ComponentModel.CancelEventHandler(MainWindow_Closing);
+            this.Closing += new System.ComponentModel.CancelEventHandler(MainWindow_Closing);
         }
         void MainWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
             Menu menu = new Menu();
             menu.Show();
             Greetings greetings = new Greetings();
-            menu.Show();            
+            greetings.Show();            
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            // this.Close();
-            Menu menu = new Menu();
-            menu.Show();
-            Greetings greetings = new Greetings();
-            greetings.Show();
+            this.Close();
+            
         }
         
     }

@@ -60,6 +60,34 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Algoritm.xaml.cs">
+      <DependentUpon>Algoritm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Algoritms\mainpage.xaml.cs">
+      <DependentUpon>mainpage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Control.xaml.cs">
+      <DependentUpon>Control.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Manager.cs" />
+    <Compile Include="Result.xaml.cs">
+      <DependentUpon>Result.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Teorya.xaml.cs">
+      <DependentUpon>Teorya.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Algoritm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Algoritms\mainpage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Control.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Greetings.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -85,6 +113,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="myMessageBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Result.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Teorya.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -133,6 +169,28 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\main.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\1теория.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\2алгоритм.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\4контроль_качества.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\3результат.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\конвейер\1 выбор отрасли.jpg" />
+    <Resource Include="Resources\конвейер\2 сиз.jpg" />
+    <Resource Include="Resources\конвейер\3 опасные зоны.jpg" />
+    <Resource Include="Resources\конвейер\4 поиск деталей.jpg" />
+    <Resource Include="Resources\конвейер\5 сортировка по размеру.jpg" />
+    <Resource Include="Resources\конвейер\6 Цветовая фильтрация.jpg" />
+    <Resource Include="Resources\конвейер\7 контроль качества.jpg" />
+    <Resource Include="Resources\конвейер\8 сборка по штрих-коду.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -6,8 +6,6 @@
         xmlns:local="clr-namespace:УМК_Цифра"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="700"
-        xmlns:bhv="clr-namespace:УМК_Цифра"
-        bhv:CloseWin.Enabled="True"
         WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.RowDefinitions>

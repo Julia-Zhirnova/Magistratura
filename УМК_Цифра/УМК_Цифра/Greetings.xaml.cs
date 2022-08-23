@@ -28,7 +28,7 @@ namespace УМК_Цифра
         private void StartCloseTimer()
         {
             DispatcherTimer timer = new DispatcherTimer();
-            timer.Interval = TimeSpan.FromSeconds(2d);
+            timer.Interval = TimeSpan.FromSeconds(5d);
             timer.Tick += TimerTick;
             timer.Start();
         }

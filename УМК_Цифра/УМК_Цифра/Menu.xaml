@@ -5,13 +5,31 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:УМК_Цифра"
         mc:Ignorable="d"
-        Title="Menu" Height="450" Width="800"
+        Title="Menu" Height="532.5" Width="923.5"
         WindowStartupLocation="CenterScreen">
-    <Window.Background>
-        <ImageBrush ImageSource="Resources/скрин_меню.jpg" ></ImageBrush>
-    </Window.Background>
+
     <Grid>
-        <TextBlock FontSize="24" FontFamily="Monotype Corsiva" FontWeight="Bold" TextAlignment="Center" >УМК по внедрению CV на цифровом производстве</TextBlock>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"></ColumnDefinition>
+            <ColumnDefinition Width="auto"></ColumnDefinition>
+
+        </Grid.ColumnDefinitions>
+        <Button Click="Button_Click_Teorya" Grid.Row="0" Grid.Column="0">
+            <Image Source="Resources/1теория.jpg"></Image>
+        </Button>
+        <Button Margin="0,0,0,10" Click="Button_Click_Algoritm" Grid.Row="1"  Grid.Column="0">
+            <Image Source="Resources/2алгоритм.jpg"></Image>
+        </Button>
+        <Button   Click="Button_Click_Result" Grid.Row="1"  Grid.Column="1">
+            <Image Source="Resources/3результат.jpg"></Image>
+        </Button>
+        <Button Click="Button_Click_Control" Grid.Row="0" Grid.Column="1">
+            <Image Source="Resources/4контроль_качества.jpg"></Image>
+        </Button>
 
     </Grid>
 </Window>

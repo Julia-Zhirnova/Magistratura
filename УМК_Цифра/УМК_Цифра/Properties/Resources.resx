@@ -121,6 +121,18 @@
   <data name="main" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\main.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="_1теория" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1теория.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2алгоритм" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2алгоритм.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3результат" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3результат.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4контроль_качества" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4контроль_качества.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Робот" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Робот.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
