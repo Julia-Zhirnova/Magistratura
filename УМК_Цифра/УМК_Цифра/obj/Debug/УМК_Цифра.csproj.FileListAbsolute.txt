@@ -59,3 +59,9 @@ D:\worldskills\мага\магис\УМК_Цифра\УМК_Цифра\obj\Debug
 D:\worldskills\мага\магис\УМК_Цифра\УМК_Цифра\obj\Debug\УМК_Цифра.csproj.AssemblyReference.cache
 D:\worldskills\мага\магис\УМК_Цифра\УМК_Цифра\obj\Debug\Algoritms\mainpage.g.cs
 D:\worldskills\мага\магис\УМК_Цифра\УМК_Цифра\obj\Debug\Algoritms\mainpage.baml
+D:\worldskills\мага\магис\УМК_Цифра\УМК_Цифра\obj\Debug\Controls\cmainpage.g.cs
+D:\worldskills\мага\магис\УМК_Цифра\УМК_Цифра\obj\Debug\Results\rmainpage.g.cs
+D:\worldskills\мага\магис\УМК_Цифра\УМК_Цифра\obj\Debug\Teoryas\tmainpage.g.cs
+D:\worldskills\мага\магис\УМК_Цифра\УМК_Цифра\obj\Debug\Controls\cmainpage.baml
+D:\worldskills\мага\магис\УМК_Цифра\УМК_Цифра\obj\Debug\Results\rmainpage.baml
+D:\worldskills\мага\магис\УМК_Цифра\УМК_Цифра\obj\Debug\Teoryas\tmainpage.baml

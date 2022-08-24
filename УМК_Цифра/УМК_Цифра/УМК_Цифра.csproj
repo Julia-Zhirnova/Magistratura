@@ -69,12 +69,21 @@
     <Compile Include="Control.xaml.cs">
       <DependentUpon>Control.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Controls\cmainpage.xaml.cs">
+      <DependentUpon>cmainpage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Manager.cs" />
     <Compile Include="Result.xaml.cs">
       <DependentUpon>Result.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Results\rmainpage.xaml.cs">
+      <DependentUpon>rmainpage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Teorya.xaml.cs">
       <DependentUpon>Teorya.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Teoryas\tmainpage.xaml.cs">
+      <DependentUpon>tmainpage.xaml</DependentUpon>
     </Compile>
     <Page Include="Algoritm.xaml">
       <SubType>Designer</SubType>
@@ -85,6 +94,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Control.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\cmainpage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -120,7 +133,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Results\rmainpage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Teorya.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Teoryas\tmainpage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -191,6 +212,21 @@
     <Resource Include="Resources\конвейер\6 Цветовая фильтрация.jpg" />
     <Resource Include="Resources\конвейер\7 контроль качества.jpg" />
     <Resource Include="Resources\конвейер\8 сборка по штрих-коду.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\контроль\10код.jpg" />
+    <Resource Include="Resources\контроль\11сова.jpg" />
+    <Resource Include="Resources\контроль\1заголовок.jpg" />
+    <Resource Include="Resources\контроль\2отрасль.jpg" />
+    <Resource Include="Resources\контроль\3сиз.jpg" />
+    <Resource Include="Resources\контроль\4опасные зоны.jpg" />
+    <Resource Include="Resources\контроль\6размер.jpg" />
+    <Resource Include="Resources\контроль\7цвет.jpg" />
+    <Resource Include="Resources\контроль\8сова.jpg" />
+    <Resource Include="Resources\контроль\9качество.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\контроль\5шаблон.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

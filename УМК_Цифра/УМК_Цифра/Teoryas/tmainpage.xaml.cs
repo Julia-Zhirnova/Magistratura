@@ -10,20 +10,19 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace УМК_Цифра
+namespace УМК_Цифра.Teoryas
 {
     /// <summary>
-    /// Логика взаимодействия для Control.xaml
+    /// Логика взаимодействия для tmainpage.xaml
     /// </summary>
-    public partial class Control : Window
+    public partial class tmainpage : Page
     {
-        public Control()
+        public tmainpage()
         {
             InitializeComponent();
-            MainFrame.Navigate(new Controls.cmainpage());
-            Manager.MainFrame = MainFrame;
         }
     }
 }
