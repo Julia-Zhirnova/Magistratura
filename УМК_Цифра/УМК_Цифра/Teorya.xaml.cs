@@ -22,6 +22,8 @@ namespace УМК_Цифра
         public Teorya()
         {
             InitializeComponent();
+            MainFrame.Navigate(new Teoryas.tmainpage());
+            Manager.MainFrame = MainFrame;
         }
     }
 }

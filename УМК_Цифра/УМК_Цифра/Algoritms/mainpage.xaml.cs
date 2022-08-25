@@ -27,7 +27,7 @@ namespace УМК_Цифра.Algoritms
 
         private void Button_Click_Kachestvo(object sender, RoutedEventArgs e)
         {
-
+           
         }
 
         private void Button_Click_Cvet(object sender, RoutedEventArgs e)
@@ -52,7 +52,7 @@ namespace УМК_Цифра.Algoritms
 
         private void Button_Click_Otrasl(object sender, RoutedEventArgs e)
         {
-
+            Manager.MainFrame.Navigate(new Algoritms.aOtrasl());
         }
 
         private void Button_Click_Shtrihkod(object sender, RoutedEventArgs e)

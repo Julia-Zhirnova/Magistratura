@@ -65,3 +65,5 @@ D:\worldskills\мага\магис\УМК_Цифра\УМК_Цифра\obj\Debug
 D:\worldskills\мага\магис\УМК_Цифра\УМК_Цифра\obj\Debug\Controls\cmainpage.baml
 D:\worldskills\мага\магис\УМК_Цифра\УМК_Цифра\obj\Debug\Results\rmainpage.baml
 D:\worldskills\мага\магис\УМК_Цифра\УМК_Цифра\obj\Debug\Teoryas\tmainpage.baml
+D:\worldskills\мага\магис\УМК_Цифра\УМК_Цифра\obj\Debug\Algoritms\aOtrasl.g.cs
+D:\worldskills\мага\магис\УМК_Цифра\УМК_Цифра\obj\Debug\Algoritms\aOtrasl.baml

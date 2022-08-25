@@ -34,6 +34,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\иконка.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Prism, Version=8.1.97.5141, Culture=neutral, PublicKeyToken=40ee6c3a2184dc59, processorArchitecture=MSIL">
       <HintPath>..\packages\Prism.Core.8.1.97\lib\net47\Prism.dll</HintPath>
@@ -63,6 +66,9 @@
     <Compile Include="Algoritm.xaml.cs">
       <DependentUpon>Algoritm.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Algoritms\aOtrasl.xaml.cs">
+      <DependentUpon>aOtrasl.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Algoritms\mainpage.xaml.cs">
       <DependentUpon>mainpage.xaml</DependentUpon>
     </Compile>
@@ -86,6 +92,10 @@
       <DependentUpon>tmainpage.xaml</DependentUpon>
     </Compile>
     <Page Include="Algoritm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Algoritms\aOtrasl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -227,6 +237,24 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\контроль\5шаблон.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\иконка.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\теория\10размер.jpg" />
+    <Resource Include="Resources\теория\11цвет.jpg" />
+    <Resource Include="Resources\теория\12качество.jpg" />
+    <Resource Include="Resources\теория\13код.jpg" />
+    <Resource Include="Resources\теория\1заголовок.jpg" />
+    <Resource Include="Resources\теория\2лев.jpg" />
+    <Resource Include="Resources\теория\3отрасль.jpg" />
+    <Resource Include="Resources\теория\4лев.jpg" />
+    <Resource Include="Resources\теория\5сиз.jpg" />
+    <Resource Include="Resources\теория\6статуэтка.jpg" />
+    <Resource Include="Resources\теория\7опасные зоны.jpg" />
+    <Resource Include="Resources\теория\8шаблон.jpg" />
+    <Resource Include="Resources\теория\9ракушка.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

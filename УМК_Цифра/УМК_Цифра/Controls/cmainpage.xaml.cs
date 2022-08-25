@@ -25,11 +25,6 @@ namespace УМК_Цифра.Controls
             InitializeComponent();
         }
 
-        private void Button_Click_Title(object sender, RoutedEventArgs e)
-        {
-
-        }
-
         private void Button_Click_Otrasl(object sender, RoutedEventArgs e)
         {
 

@@ -24,5 +24,45 @@ namespace УМК_Цифра.Teoryas
         {
             InitializeComponent();
         }
+
+        private void Button_Click_Otrasl(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_SIZ(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_Zone(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_Shablon(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_Razmer(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_Zvet(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_Kachestvo(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_Kod(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
