@@ -10,25 +10,25 @@
 
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="auto"></ColumnDefinition>
-            <ColumnDefinition Width="auto"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
 
         </Grid.ColumnDefinitions>
         <Button Click="Button_Click_Teorya" Grid.Row="0" Grid.Column="0">
-            <Image Source="Resources/1теория.jpg"></Image>
+            <Image Source="Resources/1теория.jpg" Stretch="Fill"></Image>
         </Button>
         <Button Margin="0,0,0,10" Click="Button_Click_Algoritm" Grid.Row="1"  Grid.Column="0">
-            <Image Source="Resources/2алгоритм.jpg"></Image>
+            <Image Source="Resources/2алгоритм.jpg" Stretch="Fill"></Image>
         </Button>
         <Button   Click="Button_Click_Result" Grid.Row="1"  Grid.Column="1">
-            <Image Source="Resources/3результат.jpg"></Image>
+            <Image Source="Resources/3результат.jpg" Stretch="Fill"></Image>
         </Button>
         <Button Click="Button_Click_Control" Grid.Row="0" Grid.Column="1">
-            <Image Source="Resources/4контроль_качества.jpg"></Image>
+            <Image Source="Resources/4контроль_качества.jpg" Stretch="Fill"></Image>
         </Button>
 
     </Grid>

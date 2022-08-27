@@ -256,5 +256,20 @@
     <Resource Include="Resources\теория\8шаблон.jpg" />
     <Resource Include="Resources\теория\9ракушка.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\результат\10размер.jpg" />
+    <Resource Include="Resources\результат\11цвет.jpg" />
+    <Resource Include="Resources\результат\12качество.jpg" />
+    <Resource Include="Resources\результат\13код.jpg" />
+    <Resource Include="Resources\результат\1заголовок.jpg" />
+    <Resource Include="Resources\результат\2лев.jpg" />
+    <Resource Include="Resources\результат\3отрасль.jpg" />
+    <Resource Include="Resources\результат\4лев.jpg" />
+    <Resource Include="Resources\результат\5сиз.jpg" />
+    <Resource Include="Resources\результат\6статуя.jpg" />
+    <Resource Include="Resources\результат\7зоны.jpg" />
+    <Resource Include="Resources\результат\8шаблон.jpg" />
+    <Resource Include="Resources\результат\9ракушка.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

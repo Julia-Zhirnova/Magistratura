@@ -10,44 +10,44 @@
 
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="auto"></ColumnDefinition>
-            <ColumnDefinition Width="auto"></ColumnDefinition>
-            <ColumnDefinition Width="auto"></ColumnDefinition>
-            <ColumnDefinition Width="auto"></ColumnDefinition>
-            <ColumnDefinition Width="auto"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <Image Source="/УМК_Цифра;component/Resources/контроль/1заголовок.jpg" Grid.ColumnSpan="5" HorizontalAlignment="Center"></Image>
+        <Image Source="/УМК_Цифра;component/Resources/контроль/1заголовок.jpg" Stretch="Fill" Grid.ColumnSpan="5" HorizontalAlignment="Center"></Image>
         <Button Click="Button_Click_Otrasl" Grid.Row="1" Grid.Column="0">
-            <Image Source="/УМК_Цифра;component/Resources/контроль/2отрасль.jpg"></Image>
+            <Image Source="/УМК_Цифра;component/Resources/контроль/2отрасль.jpg" Stretch="Fill"></Image>
         </Button>
         <Button Click="Button_Click_SIZ" Grid.Row="1" Grid.Column="1">
-            <Image Source="/УМК_Цифра;component/Resources/контроль/3сиз.jpg"></Image>
+            <Image Source="/УМК_Цифра;component/Resources/контроль/3сиз.jpg" Stretch="Fill"></Image>
         </Button>
         <Button Click="Button_Click_Opasn" Grid.Row="1" Grid.Column="2">
-            <Image Source="/УМК_Цифра;component/Resources/контроль/4опасные зоны.jpg"></Image>
+            <Image Source="/УМК_Цифра;component/Resources/контроль/4опасные зоны.jpg" Stretch="Fill"></Image>
         </Button>
         <Button Click="Button_Click_Shablon" Grid.Row="1" Grid.Column="3">
-            <Image Source="/УМК_Цифра;component/Resources/контроль/5шаблон.jpg"></Image>
+            <Image Source="/УМК_Цифра;component/Resources/контроль/5шаблон.jpg" Stretch="Fill"></Image>
         </Button>
         <Button Click="Button_Click_Razmer" Grid.Row="1" Grid.Column="4">
-            <Image Source="/УМК_Цифра;component/Resources/контроль/6размер.jpg"></Image>
+            <Image Source="/УМК_Цифра;component/Resources/контроль/6размер.jpg" Stretch="Fill"></Image>
         </Button>
         <Button Click="Button_Click_Svet" Grid.Row="2" Grid.Column="0">
-            <Image Source="/УМК_Цифра;component/Resources/контроль/7цвет.jpg"></Image>
+            <Image Source="/УМК_Цифра;component/Resources/контроль/7цвет.jpg" Stretch="Fill"></Image>
         </Button>
-        <Image Source="/УМК_Цифра;component/Resources/контроль/8сова.jpg" Grid.Row="2" Grid.Column="1"></Image>
+        <Image Source="/УМК_Цифра;component/Resources/контроль/8сова.jpg" Stretch="Fill" Grid.Row="2" Grid.Column="1"></Image>
         <Button Click="Button_Click_Kachestvo" Grid.Row="2" Grid.Column="2">
-            <Image Source="/УМК_Цифра;component/Resources/контроль/9качество.jpg"></Image>
+            <Image Source="/УМК_Цифра;component/Resources/контроль/9качество.jpg" Stretch="Fill"></Image>
         </Button>
         <Button Click="Button_Click_Kod" Grid.Row="2" Grid.Column="3">
-            <Image Source="/УМК_Цифра;component/Resources/контроль/10код.jpg"></Image>
+            <Image Source="/УМК_Цифра;component/Resources/контроль/10код.jpg" Stretch="Fill"></Image>
         </Button>
-        <Image Source="/УМК_Цифра;component/Resources/контроль/11сова.jpg" Grid.Row="2" Grid.Column="4"></Image>
+        <Image Source="/УМК_Цифра;component/Resources/контроль/11сова.jpg" Stretch="Fill" Grid.Row="2" Grid.Column="4"></Image>
         
     </Grid>
 </Page>

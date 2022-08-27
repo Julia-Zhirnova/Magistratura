@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:УМК_Цифра"
         mc:Ignorable="d"
-        Title="Result" Height="450" Width="800"
+        Title="Result" Height="450" Width="330"
         WindowStartupLocation="Manual" Left="800" Top="450">
     <Grid>
-        
+        <Frame Name="MainFrame"/>
     </Grid>
 </Window>

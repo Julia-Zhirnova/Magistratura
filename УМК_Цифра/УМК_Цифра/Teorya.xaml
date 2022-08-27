@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:УМК_Цифра"
         mc:Ignorable="d"
-        Title="Teorya" Height="400" Width="320"
+        Title="Teorya" Height="410" Width="320"
         WindowStartupLocation="Manual" Left="0" Top="0">
     <Grid>
         <Frame Name="MainFrame"/>

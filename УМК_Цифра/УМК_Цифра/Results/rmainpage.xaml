@@ -5,10 +5,50 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:УМК_Цифра.Results"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      d:DesignHeight="450" d:DesignWidth="330"
       Title="rmainpage">
 
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"></ColumnDefinition>
+            <ColumnDefinition Width="auto"></ColumnDefinition>
+            <ColumnDefinition Width="auto"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Image Source="/УМК_Цифра;component/Resources/результат/1заголовок.jpg" Grid.ColumnSpan="3"></Image>
+        <Image Source="/УМК_Цифра;component/Resources/результат/2лев.jpg" Grid.Row="1" Grid.Column="0"></Image>
+        <Button Click="Button_Click_Otrasl" Grid.Row="1" Grid.Column="1">
+            <Image Source="/УМК_Цифра;component/Resources/теория/3отрасль.jpg"></Image>
+        </Button>
+        <Image Source="/УМК_Цифра;component/Resources/результат/4лев.jpg" Grid.Row="1" Grid.Column="2"></Image>
+        <Button Click="Button_Click_SIZ" Grid.Row="2" Grid.Column="0">
+            <Image Source="/УМК_Цифра;component/Resources/результат/5сиз.jpg"></Image>
+        </Button>
+        <Image Source="/УМК_Цифра;component/Resources/результат/6статуя.jpg" Grid.Row="2" Grid.Column="1"></Image>
+        <Button Click="Button_Click_Zone" Grid.Row="2" Grid.Column="2">
+            <Image Source="/УМК_Цифра;component/Resources/результат/7зоны.jpg"></Image>
+        </Button>
+        <Button Click="Button_Click_Shablon" Grid.Row="3" Grid.Column="0">
+            <Image Source="/УМК_Цифра;component/Resources/результат/8шаблон.jpg"></Image>
+        </Button>
+        <Image Source="/УМК_Цифра;component/Resources/результат/9ракушка.jpg" Grid.Row="3" Grid.Column="1"></Image>
+        <Button Click="Button_Click_Razmer" Grid.Row="3" Grid.Column="2">
+            <Image Source="/УМК_Цифра;component/Resources/результат/10размер.jpg"></Image>
+        </Button>
+        <Button Click="Button_Click_Zvet" Grid.Row="4" Grid.Column="0">
+            <Image Source="/УМК_Цифра;component/Resources/результат/11цвет.jpg"></Image>
+        </Button>
+        <Button Click="Button_Click_Kachestvo" Grid.Row="4" Grid.Column="1">
+            <Image Source="/УМК_Цифра;component/Resources/результат/12качество.jpg"></Image>
+        </Button>
+        <Button Click="Button_Click_Kod" Grid.Row="4" Grid.Column="2">
+            <Image Source="/УМК_Цифра;component/Resources/результат/13код.jpg"></Image>
+        </Button>
     </Grid>
 </Page>

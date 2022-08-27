@@ -22,6 +22,8 @@ namespace УМК_Цифра
         public Result()
         {
             InitializeComponent();
+            MainFrame.Navigate(new Results.rmainpage());
+            Manager.MainFrame = MainFrame;
         }
     }
 }
