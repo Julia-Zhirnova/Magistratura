@@ -276,5 +276,8 @@
     <Resource Include="Resources\конвейер\4 поиск деталей.jpg" />
     <Resource Include="Resources\конвейер\5 сортировка по размеру.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\отрасль.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

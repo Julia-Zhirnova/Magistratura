@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,6 +24,11 @@ namespace УМК_Цифра.Algoritms
         public aOtrasl()
         {
             InitializeComponent();
+        }
+
+        private void Start(object sender, RoutedEventArgs e)
+        {
+            Process.Start("main4.exe");
         }
     }
 }
