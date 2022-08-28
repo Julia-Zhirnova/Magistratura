@@ -23,7 +23,7 @@ namespace УМК_Цифра
         public Menu()
         {
             InitializeComponent();
-            this.Closing += new System.ComponentModel.CancelEventHandler(MainWindow_Closing);
+            //this.Closing += new System.ComponentModel.CancelEventHandler(MainWindow_Closing);
         }
         void MainWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
@@ -32,25 +32,30 @@ namespace УМК_Цифра
         }
         private void Button_Click_Teorya(object sender, RoutedEventArgs e)
         {
-            
-            this.Close();
+            Teorya teorya = new Teorya();
+            teorya.Owner = this;
+            teorya.Show();
+           // this.Close();
         }
 
         private void Button_Click_Algoritm(object sender, RoutedEventArgs e)
         {
             Algoritm algoritm = new Algoritm();
+            algoritm.Owner = this;
             algoritm.Show();
         }
 
         private void Button_Click_Result(object sender, RoutedEventArgs e)
         {
             Result result = new Result();
+            result.Owner = this;
             result.Show();
         }
 
         private void Button_Click_Control(object sender, RoutedEventArgs e)
         {
             Control control = new Control();
+            control.Owner = this;
             control.Show();
         }
     }

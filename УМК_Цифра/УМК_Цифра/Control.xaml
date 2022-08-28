@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:УМК_Цифра"
         mc:Ignorable="d"
-        Title="Control" Height="350" Width="570"
-        WindowStartupLocation="Manual" Left="800" Top="0"
+        Title="Control" Height="350" Width="570" MinHeight="350" MinWidth="570"
+        WindowStartupLocation="CenterScreen"
         Icon="Resources/иконка.ico">
     <Grid>
         <Frame Name="MainFrame"/>

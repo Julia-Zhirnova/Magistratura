@@ -10,45 +10,45 @@
 
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="auto"></ColumnDefinition>
-            <ColumnDefinition Width="auto"></ColumnDefinition>
-            <ColumnDefinition Width="auto"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <Image Source="/УМК_Цифра;component/Resources/теория/1заголовок.jpg" Grid.ColumnSpan="3"></Image>
-        <Image Source="/УМК_Цифра;component/Resources/теория/2лев.jpg" Grid.Row="1" Grid.Column="0"></Image>
+        <Image Source="/УМК_Цифра;component/Resources/теория/1заголовок.jpg" Stretch="Fill" Grid.ColumnSpan="3"></Image>
+        <Image Source="/УМК_Цифра;component/Resources/теория/2лев.jpg" Stretch="Fill" Grid.Row="1" Grid.Column="0"></Image>
         <Button Click="Button_Click_Otrasl" Grid.Row="1" Grid.Column="1">
-            <Image Source="/УМК_Цифра;component/Resources/теория/3отрасль.jpg"></Image>
+            <Image Source="/УМК_Цифра;component/Resources/теория/3отрасль.jpg" Stretch="Fill"></Image>
         </Button>
-        <Image Source="/УМК_Цифра;component/Resources/теория/4лев.jpg" Grid.Row="1" Grid.Column="2"></Image>
+        <Image Source="/УМК_Цифра;component/Resources/теория/4лев.jpg" Stretch="Fill" Grid.Row="1" Grid.Column="2"></Image>
         <Button Click="Button_Click_SIZ" Grid.Row="2" Grid.Column="0">
-            <Image Source="/УМК_Цифра;component/Resources/теория/5сиз.jpg"></Image>
+            <Image Source="/УМК_Цифра;component/Resources/теория/5сиз.jpg" Stretch="Fill"></Image>
         </Button>
-        <Image Source="/УМК_Цифра;component/Resources/теория/6статуэтка.jpg" Grid.Row="2" Grid.Column="1"></Image>
+        <Image Source="/УМК_Цифра;component/Resources/теория/6статуэтка.jpg" Stretch="Fill" Grid.Row="2" Grid.Column="1"></Image>
         <Button Click="Button_Click_Zone" Grid.Row="2" Grid.Column="2">
-            <Image Source="/УМК_Цифра;component/Resources/теория/7опасные зоны.jpg"></Image>
+            <Image Source="/УМК_Цифра;component/Resources/теория/7опасные зоны.jpg" Stretch="Fill"></Image>
         </Button>
         <Button Click="Button_Click_Shablon" Grid.Row="3" Grid.Column="0">
-            <Image Source="/УМК_Цифра;component/Resources/теория/8шаблон.jpg"></Image>
+            <Image Source="/УМК_Цифра;component/Resources/теория/8шаблон.jpg" Stretch="Fill"></Image>
         </Button>
-        <Image Source="/УМК_Цифра;component/Resources/теория/9ракушка.jpg" Grid.Row="3" Grid.Column="1"></Image>
+        <Image Source="/УМК_Цифра;component/Resources/теория/9ракушка.jpg" Stretch="Fill" Grid.Row="3" Grid.Column="1"></Image>
         <Button Click="Button_Click_Razmer" Grid.Row="3" Grid.Column="2">
-            <Image Source="/УМК_Цифра;component/Resources/теория/10размер.jpg"></Image>
+            <Image Source="/УМК_Цифра;component/Resources/теория/10размер.jpg" Stretch="Fill"></Image>
         </Button>
         <Button Click="Button_Click_Zvet" Grid.Row="4" Grid.Column="0">
-            <Image Source="/УМК_Цифра;component/Resources/теория/11цвет.jpg"></Image>
+            <Image Source="/УМК_Цифра;component/Resources/теория/11цвет.jpg" Stretch="Fill"></Image>
         </Button>
         <Button Click="Button_Click_Kachestvo" Grid.Row="4" Grid.Column="1">
-            <Image Source="/УМК_Цифра;component/Resources/теория/12качество.jpg"></Image>
+            <Image Source="/УМК_Цифра;component/Resources/теория/12качество.jpg" Stretch="Fill"></Image>
         </Button>
         <Button Click="Button_Click_Kod" Grid.Row="4" Grid.Column="2">
-            <Image Source="/УМК_Цифра;component/Resources/теория/13код.jpg"></Image>
+            <Image Source="/УМК_Цифра;component/Resources/теория/13код.jpg" Stretch="Fill"></Image>
         </Button>
     </Grid>
 </Page>

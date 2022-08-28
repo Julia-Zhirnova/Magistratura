@@ -10,38 +10,45 @@
 
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="auto"></ColumnDefinition>
-            <ColumnDefinition Width="auto"></ColumnDefinition>
-            <ColumnDefinition Width="auto"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <Button Click="Button_Click_Shtrihkod" Grid.Row="0" Grid.Column="0">
-            <Image Source="/УМК_Цифра;component/Resources/конвейер/8 сборка по штрих-коду.jpg"></Image>
+            <Image  Stretch="Fill" Source="/УМК_Цифра;component/Resources/конвейер/8 сборка по штрих-коду.jpg"></Image>
         </Button>
         <Button Click="Button_Click_Kachestvo" Grid.Row="0" Grid.Column="1">
-            <Image Source="/УМК_Цифра;component/Resources/конвейер/7 контроль качества.jpg"></Image>
+            <Image  Stretch="Fill" Source="/УМК_Цифра;component/Resources/конвейер/7 контроль качества.jpg"></Image>
         </Button>
         <Button Click="Button_Click_Cvet" Grid.Row="0" Grid.Column="2" >
-            <Image Source="/УМК_Цифра;component/Resources/конвейер/6 Цветовая фильтрация.jpg"></Image>
+            <Image  Stretch="Fill" Source="/УМК_Цифра;component/Resources/конвейер/6 Цветовая фильтрация.jpg"></Image>
         </Button>
-        <Button Click="Button_Click_Poisk" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Left">
-            <Image Source="/УМК_Цифра;component/Resources/конвейер/4 поиск деталей.jpg"></Image>
-        </Button>
-        <Button Click="Button_Click_Razmer" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" HorizontalAlignment="Right">
-            <Image Source="/УМК_Цифра;component/Resources/конвейер/5 сортировка по размеру.jpg"></Image>
-        </Button>
+        <Grid Grid.Row="1" Grid.ColumnSpan="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Button Click="Button_Click_Poisk"  Grid.Column="0">
+                <Image  Stretch="Fill" Source="/УМК_Цифра;component/Resources/конвейер/4 поиск деталей.jpg"></Image>
+            </Button>
+            <Button Click="Button_Click_Razmer" Grid.Column="1">
+                <Image  Stretch="Fill" Source="/УМК_Цифра;component/Resources/конвейер/5 сортировка по размеру.jpg"></Image>
+            </Button>
+        </Grid>
+        
         <Button Click="Button_Click_Poisk" Grid.Row="2" Grid.Column="0" >
-            <Image Source="/УМК_Цифра;component/Resources/конвейер/3 опасные зоны.jpg"></Image>
+            <Image  Stretch="Fill" Source="/УМК_Цифра;component/Resources/конвейер/3 опасные зоны.jpg"></Image>
         </Button>
         <Button Click="Button_Click_SIZ" Grid.Row="2" Grid.Column="1" >
-            <Image Source="/УМК_Цифра;component/Resources/конвейер/2 сиз.jpg"></Image>
+            <Image  Stretch="Fill" Source="/УМК_Цифра;component/Resources/конвейер/2 сиз.jpg"></Image>
         </Button>
         <Button Click="Button_Click_Otrasl" Grid.Row="2" Grid.Column="2" >
-            <Image Source="/УМК_Цифра;component/Resources/конвейер/1 выбор отрасли.jpg"></Image>
+            <Image  Stretch="Fill" Source="/УМК_Цифра;component/Resources/конвейер/1 выбор отрасли.jpg"></Image>
         </Button>
     </Grid>
 </Page>
