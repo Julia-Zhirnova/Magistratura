@@ -27,7 +27,7 @@ namespace УМК_Цифра.Controls
 
         private void Button_Click_Otrasl(object sender, RoutedEventArgs e)
         {
-
+            Manager.MainFrame.Navigate(new Controls.cOtrasl());
         }
 
         private void Button_Click_SIZ(object sender, RoutedEventArgs e)

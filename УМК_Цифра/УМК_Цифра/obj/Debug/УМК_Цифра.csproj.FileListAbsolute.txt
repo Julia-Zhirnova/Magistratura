@@ -69,3 +69,7 @@ D:\worldskills\мага\магис\УМК_Цифра\УМК_Цифра\obj\Debug
 D:\worldskills\мага\магис\УМК_Цифра\УМК_Цифра\obj\Debug\Algoritms\aOtrasl.baml
 D:\worldskills\мага\магис\УМК_Цифра\УМК_Цифра\obj\Debug\Teoryas\tOtrasl.g.cs
 D:\worldskills\мага\магис\УМК_Цифра\УМК_Цифра\obj\Debug\Teoryas\tOtrasl.baml
+D:\worldskills\мага\магис\УМК_Цифра\УМК_Цифра\obj\Debug\Controls\cOtrasl.g.cs
+D:\worldskills\мага\магис\УМК_Цифра\УМК_Цифра\obj\Debug\Results\rOtrasl.g.cs
+D:\worldskills\мага\магис\УМК_Цифра\УМК_Цифра\obj\Debug\Controls\cOtrasl.baml
+D:\worldskills\мага\магис\УМК_Цифра\УМК_Цифра\obj\Debug\Results\rOtrasl.baml
