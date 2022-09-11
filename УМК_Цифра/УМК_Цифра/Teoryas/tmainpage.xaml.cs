@@ -27,7 +27,7 @@ namespace УМК_Цифра.Teoryas
 
         private void Button_Click_Otrasl(object sender, RoutedEventArgs e)
         {
-
+            Manager.MainFrame.Navigate(new Teoryas.tOtrasl());
         }
 
         private void Button_Click_SIZ(object sender, RoutedEventArgs e)

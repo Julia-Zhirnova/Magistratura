@@ -91,6 +91,9 @@
     <Compile Include="Teoryas\tmainpage.xaml.cs">
       <DependentUpon>tmainpage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Teoryas\tOtrasl.xaml.cs">
+      <DependentUpon>tOtrasl.xaml</DependentUpon>
+    </Compile>
     <Page Include="Algoritm.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -152,6 +155,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Teoryas\tmainpage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Teoryas\tOtrasl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -278,6 +285,21 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\отрасль.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\человек против робота.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\очки.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\план.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\архитектура.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\структура машинного зрения.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
