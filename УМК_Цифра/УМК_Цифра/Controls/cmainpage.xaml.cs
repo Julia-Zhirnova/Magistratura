@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -27,7 +28,8 @@ namespace УМК_Цифра.Controls
 
         private void Button_Click_Otrasl(object sender, RoutedEventArgs e)
         {
-            Manager.MainFrame.Navigate(new Controls.cOtrasl());
+            Process.Start("https://forms.gle/JrdK9bJQB5hXUZFF9"); //открытие ссылки в браузере
+
         }
 
         private void Button_Click_SIZ(object sender, RoutedEventArgs e)

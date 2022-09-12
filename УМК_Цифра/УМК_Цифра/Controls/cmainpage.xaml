@@ -24,6 +24,7 @@
         <Image Source="/УМК_Цифра;component/Resources/контроль/1заголовок.jpg" Stretch="Fill" Grid.ColumnSpan="5" HorizontalAlignment="Center"></Image>
         <Button Click="Button_Click_Otrasl" Grid.Row="1" Grid.Column="0">
             <Image Source="/УМК_Цифра;component/Resources/контроль/2отрасль.jpg" Stretch="Fill"></Image>
+            
         </Button>
         <Button Click="Button_Click_SIZ" Grid.Row="1" Grid.Column="1">
             <Image Source="/УМК_Цифра;component/Resources/контроль/3сиз.jpg" Stretch="Fill"></Image>

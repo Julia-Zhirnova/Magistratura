@@ -11,9 +11,9 @@
     <Grid>
         <ScrollViewer Grid.Row="1">
             <StackPanel Grid.Row="1">
-                <TextBlock Margin="5">
-      Это обычная страница. А это <Hyperlink NavigateUri="https://videouroki.net/course/1509959/osnovy-php-i-mysql.html">ссылка на гугл форму</Hyperlink>
-                </TextBlock>
+              
+                <TextBlock >  <Hyperlink Click="hyperlink_Click">Google Form</Hyperlink> </TextBlock>
+               
                 <TextBlock FontWeight="SemiBold" FontSize="36" > Цифровое производство</TextBlock>
                 <Grid Background="#FF80D3D3" Height="10" VerticalAlignment="Bottom" Margin="10"></Grid>
                 <TextBlock>Одним из барьеров при создании подобных комплексных систем является обязательное проведение контрольных операций, будь то контроль позиционирования, контроль выполнения технологической операции или промежуточный контроль качества изготавливаемой продукции, который заключается в визуальной оценке тех или иных параметров.

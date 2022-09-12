@@ -315,5 +315,11 @@
   <ItemGroup>
     <Resource Include="Resources\структура машинного зрения.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\производство.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Каркас.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

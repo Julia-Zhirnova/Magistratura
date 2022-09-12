@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,6 +24,11 @@ namespace УМК_Цифра.Controls
         public cOtrasl()
         {
             InitializeComponent();
+        }
+        void hyperlink_Click(object sender, RoutedEventArgs e)
+        {
+            Process.Start("https://forms.gle/JrdK9bJQB5hXUZFF9"); //открытие ссылки в браузере
+
         }
     }
 }

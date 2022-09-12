@@ -11,14 +11,21 @@
     <Grid>
         <ScrollViewer Grid.Row="1">
             <StackPanel Grid.Row="1">
-                <TextBlock FontWeight="SemiBold" FontSize="36" > Цифровое производство</TextBlock>
+                <TextBlock FontWeight="SemiBold" FontSize="36" > Алгоритм выбора отрасли</TextBlock>
                 <Grid Background="#FF80D3D3" Height="10" VerticalAlignment="Bottom" Margin="10"></Grid>
-                <TextBlock>Одним из барьеров при создании подобных комплексных систем является обязательное проведение контрольных операций, будь то контроль позиционирования, контроль выполнения технологической операции или промежуточный контроль качества изготавливаемой продукции, который заключается в визуальной оценке тех или иных параметров.
-                применение машинного зрения может рассматриваться как самостоятельный элемент для решения специализированных задач. В любом случае, вопрос внедрения систем на базе машинного зрения стоит на повестке многих компаний, активно занимающихся цифровизацией производства</TextBlock>
-                <Image Source="/УМК_Цифра;component/Resources/человек против робота.jpg" Stretch="Fill" ></Image>             
+                <TextBlock>1. Выбрать отрасль производства и придумать название компании.</TextBlock>
+                <TextBlock>2. Выбрать тип продукции и ее составляющие.</TextBlock>
+                <TextBlock>3. Определить структуру цеха с указанием и описанием опасных зон</TextBlock>
+                <TextBlock>4. Представить план цеха в 2D/3D модели</TextBlock>
+                <TextBlock>5. Выложить на гит-репозиторий</TextBlock>
+                <TextBlock>6. Продумать дизайн и реализовать главное окно WPF с навигационной панелью                </TextBlock>
+
+                <Image Source="/УМК_Цифра;component/Resources/производство.jpeg" Stretch="Fill" ></Image>
+                
+                <Button Click="Start" Background="#FFC2DCE0"  Content="Пример работы программы"/>
             </StackPanel>
         </ScrollViewer>
-        <Button Click="Start" Background="#FFC2DCE0" Height="20">Запустить</Button>
+        
 
     </Grid>
 </Page>

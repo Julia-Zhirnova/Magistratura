@@ -11,11 +11,9 @@
     <Grid>
         <ScrollViewer Grid.Row="1">
             <StackPanel Grid.Row="1">
-                <TextBlock FontWeight="SemiBold" FontSize="36" > Цифровое производство</TextBlock>
+                <TextBlock FontWeight="SemiBold" FontSize="36" > Пример главного окна приложения</TextBlock>
                 <Grid Background="#FF80D3D3" Height="10" VerticalAlignment="Bottom" Margin="10"></Grid>
-                <TextBlock>Одним из барьеров при создании подобных комплексных систем является обязательное проведение контрольных операций, будь то контроль позиционирования, контроль выполнения технологической операции или промежуточный контроль качества изготавливаемой продукции, который заключается в визуальной оценке тех или иных параметров.
-                применение машинного зрения может рассматриваться как самостоятельный элемент для решения специализированных задач. В любом случае, вопрос внедрения систем на базе машинного зрения стоит на повестке многих компаний, активно занимающихся цифровизацией производства</TextBlock>
-                <Image Source="/УМК_Цифра;component/Resources/человек против робота.jpg" Stretch="Fill" ></Image>
+                <Image Source="/УМК_Цифра;component/Resources/Каркас.jpg" Stretch="Fill" ></Image>
             </StackPanel>
         </ScrollViewer>
     </Grid>

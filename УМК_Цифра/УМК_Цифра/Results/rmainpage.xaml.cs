@@ -37,7 +37,7 @@ namespace УМК_Цифра.Results
 
         private void Button_Click_Otrasl(object sender, RoutedEventArgs e)
         {
-
+            Manager.MainFrame.Navigate(new Results.rOtrasl());
         }
 
         private void Button_Click_Shablon(object sender, RoutedEventArgs e)
