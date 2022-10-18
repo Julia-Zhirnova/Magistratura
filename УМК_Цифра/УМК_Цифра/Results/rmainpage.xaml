@@ -21,7 +21,7 @@
             <ColumnDefinition Width="*"></ColumnDefinition>
             <ColumnDefinition Width="*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <Image Source="/УМК_Цифра;component/Resources/результат/1заголовок.jpg" Stretch="Fill" Grid.ColumnSpan="3"></Image>
+        <Image Source="/УМК_Цифра;component/Resources/результат/1испрзаголовок.jpg" Stretch="Fill" Grid.ColumnSpan="3"></Image>
         <Image Source="/УМК_Цифра;component/Resources/результат/2лев.jpg" Stretch="Fill" Grid.Row="1" Grid.Column="0"></Image>
         <Button Click="Button_Click_Otrasl" Grid.Row="1" Grid.Column="1">
             <Image Source="/УМК_Цифра;component/Resources/теория/3отрасль.jpg" Stretch="Fill"></Image>
