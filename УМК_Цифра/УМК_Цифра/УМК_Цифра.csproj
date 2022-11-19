@@ -75,6 +75,9 @@
     <Compile Include="Algoritms\mainpage.xaml.cs">
       <DependentUpon>mainpage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Bye.xaml.cs">
+      <DependentUpon>Bye.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Control.xaml.cs">
       <DependentUpon>Control.xaml</DependentUpon>
     </Compile>
@@ -100,6 +103,7 @@
     <Compile Include="Results\rSIZ.xaml.cs">
       <DependentUpon>rSIZ.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Score.cs" />
     <Compile Include="Teorya.xaml.cs">
       <DependentUpon>Teorya.xaml</DependentUpon>
     </Compile>
@@ -125,6 +129,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Algoritms\mainpage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Bye.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -251,18 +259,6 @@
     <Resource Include="Resources\main.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\1теория.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\2алгоритм.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\4контроль_качества.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\3результат.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Resources\конвейер\1 выбор отрасли.jpg" />
     <Resource Include="Resources\конвейер\2 сиз.jpg" />
     <Resource Include="Resources\конвейер\3 опасные зоны.jpg" />
@@ -360,6 +356,14 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\теория\пример распознавания касок.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\1теория.jpg" />
+    <Resource Include="Resources\2алгоритм.jpg" />
+    <Resource Include="Resources\4контроль_качества.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\3результат.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

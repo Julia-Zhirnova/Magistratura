@@ -28,10 +28,10 @@ namespace УМК_Цифра
         }
         void MainWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            Menu menu = new Menu();
-            menu.Show();
+            /*Menu menu = new Menu();
+            menu.Show();*/
             Greetings greetings = new Greetings();
-            greetings.Show();            
+            greetings.Show();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)

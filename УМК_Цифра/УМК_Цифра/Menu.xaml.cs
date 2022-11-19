@@ -23,12 +23,13 @@ namespace УМК_Цифра
         public Menu()
         {
             InitializeComponent();
-            //this.Closing += new System.ComponentModel.CancelEventHandler(MainWindow_Closing);
+            
+            this.Closing += new System.ComponentModel.CancelEventHandler(MainWindow_Closing);
         }
         void MainWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            Teorya teorya = new Teorya();
-            teorya.Show();
+            Bye bye = new Bye();
+            bye.Show();
         }
         private void Button_Click_Teorya(object sender, RoutedEventArgs e)
         {

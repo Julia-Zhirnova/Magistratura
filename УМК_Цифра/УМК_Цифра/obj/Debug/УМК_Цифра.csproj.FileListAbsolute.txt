@@ -81,3 +81,7 @@ D:\worldskills\мага\магис\УМК_Цифра\УМК_Цифра\obj\Debug
 D:\worldskills\мага\магис\УМК_Цифра\УМК_Цифра\obj\Debug\Controls\cSIZ.baml
 D:\worldskills\мага\магис\УМК_Цифра\УМК_Цифра\obj\Debug\Results\rSIZ.baml
 D:\worldskills\мага\магис\УМК_Цифра\УМК_Цифра\obj\Debug\Teoryas\tSIZ.baml
+D:\worldskills\мага\магис\УМК_Цифра\УМК_Цифра\obj\Debug\УМК_Цифра.csproj.SuggestedBindingRedirects.cache
+D:\worldskills\мага\магис\УМК_Цифра\УМК_Цифра\obj\Debug\УМК_Цифра.csproj.CopyComplete
+D:\worldskills\мага\магис\УМК_Цифра\УМК_Цифра\obj\Debug\Bye.g.cs
+D:\worldskills\мага\магис\УМК_Цифра\УМК_Цифра\obj\Debug\Bye.baml

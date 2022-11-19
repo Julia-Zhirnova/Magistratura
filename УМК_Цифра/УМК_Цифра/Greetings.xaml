@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:УМК_Цифра"
         mc:Ignorable="d"
-        Title="Greetings" Height="450" Width="700"
+        Title="Greetings" Height="550" Width="800"
         WindowStartupLocation="CenterScreen">
     
     <Grid>
@@ -14,15 +14,40 @@
             <ColumnDefinition Width="Auto"/>
         </Grid.ColumnDefinitions>
         <Image Source="Resources/Робот.jpg" HorizontalAlignment="Right" Grid.Column ="1"></Image>
-        <TextBlock TextWrapping="WrapWithOverflow" Margin="10" VerticalAlignment="Center" FontSize="24" TextAlignment="Center" Foreground="Black"
+        <StackPanel  VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5">
+            <TextBlock TextWrapping="WrapWithOverflow" Margin="10" VerticalAlignment="Center" FontSize="24" TextAlignment="Center" Foreground="Black"
         Text="Приветствую на цифровом производстве! Вы спросите, что мы будем оцифровывать? Выбор за Вами. Давайте посмотрим на план.">
-            <TextBlock.Background>
-                <!--Настройки градиента-->
-                <RadialGradientBrush RadiusX="1" RadiusY="1" >
-                    <GradientStop Color="White" Offset="0.313" />
-                    <GradientStop Color="#FFC3BDBD" Offset="1" />
-                </RadialGradientBrush>
-            </TextBlock.Background>
-        </TextBlock>
+                <TextBlock.Background>
+                    <!--Настройки градиента-->
+                    <RadialGradientBrush RadiusX="1" RadiusY="1" >
+                        <GradientStop Color="White" Offset="0.313" />
+                        <GradientStop Color="#FFC3BDBD" Offset="1" />
+                    </RadialGradientBrush>
+                </TextBlock.Background>
+            </TextBlock>
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock  Width="160"> Введите логин:</TextBlock>
+                    <TextBox Name="TxbLogin" Width="100" Height="25" FontFamily="Arial" FontSize="20"></TextBox>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Width="160"> Введите пароль:</TextBlock>
+                    <TextBox Name="TxbPassword" Width="100" Visibility="Collapsed"  Height="25" FontFamily="Arial" FontSize="20"></TextBox>
+                    <PasswordBox Name="PsbPassword" Width="100" Height="25" FontFamily="Arial" FontSize="20" ></PasswordBox>
+                </StackPanel>               
+                
+                <TextBlock Text="Show Password" x:Name="TbxShowPass" MouseDown="TbxShowPass_MouseDown" MouseUp="TbxShowPass_MouseUp" ></TextBlock>
+                <Button Name="BtnInLogin" Click="BtnInLogin_Click">Войти
+                    <Button.Background>
+                        <!--Настройки градиента-->
+                        <RadialGradientBrush RadiusX="1" RadiusY="1" >
+                            <GradientStop Color="White" Offset="0.313" />
+                            <GradientStop Color="#FFC3BDBD" Offset="1" />
+                        </RadialGradientBrush>
+                    </Button.Background>
+                </Button>
+            </StackPanel>
+        </StackPanel>
+       
     </Grid>
 </Window>

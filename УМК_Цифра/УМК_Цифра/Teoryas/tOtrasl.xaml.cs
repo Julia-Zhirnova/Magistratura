@@ -23,6 +23,45 @@ namespace УМК_Цифра.Teoryas
         public tOtrasl()
         {
             InitializeComponent();
+            
+            
+        }
+        int trying = 1;
+        private void Proiz1(object sender, RoutedEventArgs e)
+        {
+            if (trying == 0) P1.Visibility = Visibility.Hidden;
+            else
+            {
+                Score.ScorePoint -= 1;
+                MessageBox.Show("Неверно, Вы потеряли балл");
+                trying = 0;
+                Console.WriteLine(Score.ScorePoint);
+            }
+        }
+        private void Proiz2(object sender, RoutedEventArgs e)
+        {
+            
+            if (trying == 0) P2.Visibility = Visibility.Hidden;
+            else
+            {
+                Score.ScorePoint += 1;
+                MessageBox.Show("Верно, Вы получили балл");
+                trying = 0;
+                Console.WriteLine(Score.ScorePoint);
+            }
+
+
+        }
+        private void Proiz3(object sender, RoutedEventArgs e)
+        {
+            if (trying == 0) P3.Visibility = Visibility.Hidden;
+            else
+            {
+                Score.ScorePoint -= 1;
+                MessageBox.Show("Неверно, Вы потеряли балл");
+                trying = 0;
+                Console.WriteLine(Score.ScorePoint);
+            }
         }
     }
 }

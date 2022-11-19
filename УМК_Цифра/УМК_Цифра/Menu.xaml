@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:УМК_Цифра"
         mc:Ignorable="d"
-        Title="Menu" MinHeight="532.5" MinWidth="923.5"
+        Title="Menu" MinHeight="500" MinWidth="780" Height="500" Width="780"
         WindowStartupLocation="CenterScreen">
 
     <Grid>

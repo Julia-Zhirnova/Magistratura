@@ -23,22 +23,61 @@ namespace УМК_Цифра
         public Greetings()
         {
             InitializeComponent();
-            StartCloseTimer();
+            //this.Closing += new System.ComponentModel.CancelEventHandler(MainWindow_Closing);
+            //StartCloseTimer();
         }
-        private void StartCloseTimer()
+        /* private void StartCloseTimer()
+         {
+             DispatcherTimer timer = new DispatcherTimer();
+             timer.Interval = TimeSpan.FromSeconds(5d);
+             timer.Tick += TimerTick;
+             timer.Start();
+         }
+
+         private void TimerTick(object sender, EventArgs e)
+         {
+             DispatcherTimer timer = (DispatcherTimer)sender;
+             timer.Stop();
+             timer.Tick -= TimerTick;
+             Close();
+         }*/
+       /* void MainWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            DispatcherTimer timer = new DispatcherTimer();
-            timer.Interval = TimeSpan.FromSeconds(5d);
-            timer.Tick += TimerTick;
-            timer.Start();
+            Menu menu = new Menu();
+            menu.Show();
+            
+        }*/
+        private void BtnInLogin_Click(object sender, RoutedEventArgs e)
+        {
+            if (TxbLogin.Text == String.Empty || PsbPassword.Password == String.Empty)//Проверка на пустоту текстбокса
+            MessageBox.Show("Введите данные");
+            else
+            {
+                if ((TxbLogin.Text == "205AD" && PsbPassword.Password == "12345") || (TxbLogin.Text == "root" && PsbPassword.Password == "12345"))
+                {
+                    Menu menu = new Menu();
+                    menu.Show();
+                    this.Close();
+                }
+                //this.Close();
+
+                else MessageBox.Show("Такого пользователя нет!", "Ошибка при авторизации",
+                            MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+            
+            
+        }
+        private void TbxShowPass_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            TxbPassword.Visibility = Visibility.Visible;
+            PsbPassword.Visibility = Visibility.Collapsed;
+            TxbPassword.Text = PsbPassword.Password;
         }
 
-        private void TimerTick(object sender, EventArgs e)
+        private void TbxShowPass_MouseUp(object sender, MouseButtonEventArgs e)
         {
-            DispatcherTimer timer = (DispatcherTimer)sender;
-            timer.Stop();
-            timer.Tick -= TimerTick;
-            Close();
+            TxbPassword.Visibility = Visibility.Collapsed;
+            PsbPassword.Visibility = Visibility.Visible;
         }
     }
 }
