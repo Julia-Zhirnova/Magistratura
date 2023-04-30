@@ -5,19 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:УМК_Цифра"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="700"
-        WindowStartupLocation="CenterScreen">
+        Title="Старт" MinHeight="720" MinWidth="1200" Height="720" Width="1200" 
+        d:DesignHeight="720" d:DesignWidth="1200"
+        WindowStartupLocation="CenterScreen"  
+        >
+    
     <Grid>
+        
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <TextBlock FontSize="24" FontFamily="Monotype Corsiva" FontWeight="Bold" TextAlignment="Center" >УМК по внедрению CV на цифровом производстве</TextBlock>
+        <TextBlock FontSize="34" Style="{StaticResource Header}" TextAlignment="Center" Margin="15">
+                   ВНЕДРЕНИЕ КОМПЬЮТЕРНОГО ЗРЕНИЯ <LineBreak/> НА ЦИФРОВОМ ПРОИЗВОДСТВЕ
+        </TextBlock>
         <Button Click="Button_Click" Grid.Row="1">
-         <Image Source="Resources/main.jpg"></Image>          
-            
+            <Image Source="Resources/main.jpg"></Image>            
         </Button>
-        
-
     </Grid>
 </Window>

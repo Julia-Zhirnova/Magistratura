@@ -5,30 +5,61 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:УМК_Цифра"
         mc:Ignorable="d"
-        Title="Menu" MinHeight="500" MinWidth="780" Height="500" Width="780"
-        WindowStartupLocation="CenterScreen">
+        Title="Menu" MinHeight="720" MinWidth="1200" Height="720" Width="1200" 
+        d:DesignHeight="720" d:DesignWidth="1200"
+        WindowStartupLocation="CenterScreen" >
 
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="*"/>            
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"></ColumnDefinition>
-            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="0.5*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>    
 
         </Grid.ColumnDefinitions>
-        <Button Click="Button_Click_Teorya" Grid.Row="0" Grid.Column="0">
-            <Image Source="Resources/1теория.jpg" Stretch="Fill"></Image>
+        <Border>
+            <Border.Background>
+                <ImageBrush ImageSource="Resources/fon.jpeg" Stretch="Fill"></ImageBrush>
+            </Border.Background>
+        </Border>
+        <Border>
+            <Border.Background>
+                <ImageBrush ImageSource="Resources/1теория.jpg" Stretch="Fill"></ImageBrush>
+            </Border.Background>
+        </Border>
+        <Border>
+            <Border.Background>
+                <ImageBrush ImageSource="Resources/2алгоритм.jpg" Stretch="Fill"></ImageBrush>
+            </Border.Background>
+        </Border>
+        <Border>
+            <Border.Background>
+                <ImageBrush ImageSource="Resources/3результат.jpg" Stretch="Fill"></ImageBrush>
+            </Border.Background>
+        </Border>
+        <Border>
+            <Border.Background>
+                <ImageBrush ImageSource="Resources/4контроль_качества.jpg" Stretch="Fill"></ImageBrush>
+            </Border.Background>
+        </Border>
+        
+        <Button Click="Button_Click_Teorya" Grid.Row="0" Grid.Column="0" Background="{x:Null}" >
+           
         </Button>
-        <Button Margin="0,0,0,10" Click="Button_Click_Algoritm" Grid.Row="1"  Grid.Column="0">
-            <Image Source="Resources/2алгоритм.jpg" Stretch="Fill"></Image>
+        <Button Margin="0,0,0,10" Click="Button_Click_Algoritm" Grid.Row="1"  Grid.Column="0" Background="{x:Null}"  >
+           
         </Button>
-        <Button   Click="Button_Click_Result" Grid.Row="1"  Grid.Column="1">
-            <Image Source="Resources/3результат.jpg" Stretch="Fill"></Image>
+        <Button   Click="Button_Click_Result" Grid.Row="1"  Grid.Column="1" Background="{x:Null}" >
+           
         </Button>
-        <Button Click="Button_Click_Control" Grid.Row="0" Grid.Column="1">
-            <Image Source="Resources/4контроль_качества.jpg" Stretch="Fill"></Image>
+        <Button Click="Button_Click_Control" Grid.Row="0" Grid.Column="1" Background="{x:Null}" >
+          
         </Button>
 
     </Grid>

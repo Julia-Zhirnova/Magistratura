@@ -6,15 +6,49 @@
     <Application.Resources>
         
         <Style TargetType="TextBlock">
-            <Setter Property="FontFamily" Value="Arial"></Setter>
+            <Setter Property="FontFamily" Value="Segoe UI"></Setter>
             <Setter Property="FontSize" Value="20" ></Setter>
             <Setter Property="LineStackingStrategy" Value="BlockLineHeight" ></Setter>
             <Setter Property="LineHeight" Value="30" ></Setter>
             <Setter Property="TextWrapping" Value="Wrap" ></Setter>
             <Setter Property="Margin" Value="10" ></Setter>
-            <Setter Property="TextAlignment" Value="Justify" ></Setter>
+            <Setter Property="TextAlignment" Value="Left" ></Setter>
+        </Style>
+
+        <Style TargetType="TextBlock" x:Key="Header">
+            <Setter Property="FontFamily" Value="Segoe UI Semibold"></Setter>
+        </Style>
+
+        <Style TargetType="TextBox">
+            <Setter Property="FontFamily" Value="Segoe UI"></Setter>
+            <Setter Property="FontSize" Value="18" ></Setter>
+            <Setter Property="VerticalAlignment" Value="Center" ></Setter>
         </Style>
         
+        <Style TargetType="Button">
+            
+        </Style>
+        <Style TargetType="Button" x:Key="GreyButton">          
+           
+            <Setter Property="Background">
+                <Setter.Value>
+                    <RadialGradientBrush RadiusX="1" RadiusY="1" >
+                        <GradientStop Color="White" Offset="0.313" />
+                        <GradientStop Color="#FFC3BDBD" Offset="1" />
+                    </RadialGradientBrush>
+                </Setter.Value>
+
+            </Setter>
+            <Style.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="15" />
+                </Style>
+            </Style.Resources>
+
+        </Style>
+        
+
+
 
     </Application.Resources>
 </Application>

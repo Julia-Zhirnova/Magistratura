@@ -67,17 +67,28 @@ namespace УМК_Цифра
             
             
         }
-        private void TbxShowPass_MouseDown(object sender, MouseButtonEventArgs e)
+        private void SeekPass_Click(object sender, RoutedEventArgs e)
         {
-            TxbPassword.Visibility = Visibility.Visible;
-            PsbPassword.Visibility = Visibility.Collapsed;
-            TxbPassword.Text = PsbPassword.Password;
+            if (PsbPassword.Password.Length > 0)
+            {
+                PsbPassword.Visibility = Visibility.Visible;
+                PsbPassword.Password = TxbPassword.Text;
+                TxbPassword.Visibility = Visibility.Hidden;
+                SeekPass.Visibility = Visibility.Hidden;
+                ShowPass.Visibility = Visibility.Visible;
+            }
+        }
+        private void ShowPass_Click(object sender, RoutedEventArgs e)
+        {
+            if (PsbPassword.Password.Length > 0)
+            {
+                PsbPassword.Visibility = Visibility.Hidden;
+                TxbPassword.Text = PsbPassword.Password;
+                TxbPassword.Visibility = Visibility.Visible;
+                SeekPass.Visibility = Visibility.Visible;
+                ShowPass.Visibility = Visibility.Hidden;
+            }
         }
 
-        private void TbxShowPass_MouseUp(object sender, MouseButtonEventArgs e)
-        {
-            TxbPassword.Visibility = Visibility.Collapsed;
-            PsbPassword.Visibility = Visibility.Visible;
-        }
     }
 }

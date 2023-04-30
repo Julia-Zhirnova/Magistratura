@@ -27,7 +27,7 @@ namespace УМК_Цифра.Results
 
         private void Button_Click_SIZ(object sender, RoutedEventArgs e)
         {
-
+            Manager.MainFrame.Navigate(new Results.rSIZ());
         }
 
         private void Button_Click_Zone(object sender, RoutedEventArgs e)

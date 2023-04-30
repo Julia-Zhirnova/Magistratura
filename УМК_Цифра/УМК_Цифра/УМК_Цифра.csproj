@@ -365,5 +365,15 @@
   <ItemGroup>
     <Resource Include="Resources\3результат.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\результат\Шаблон.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\hide.png" />
+    <Resource Include="Resources\view.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\fon.jpeg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

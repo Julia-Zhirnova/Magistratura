@@ -5,13 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:УМК_Цифра"
         mc:Ignorable="d"
-        Title="Greetings" Height="550" Width="800"
+        Title="Greetings" MinHeight="600" MinWidth="900" Height="600" Width="900"
         WindowStartupLocation="CenterScreen">
     
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="auto"/>
         </Grid.ColumnDefinitions>
         <Image Source="Resources/Робот.jpg" HorizontalAlignment="Right" Grid.Column ="1"></Image>
         <StackPanel  VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5">
@@ -25,28 +25,34 @@
                     </RadialGradientBrush>
                 </TextBlock.Background>
             </TextBlock>
-            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <StackPanel Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center">
                 <StackPanel Orientation="Horizontal">
                     <TextBlock  Width="160"> Введите логин:</TextBlock>
-                    <TextBox Name="TxbLogin" Width="100" Height="25" FontFamily="Arial" FontSize="20"></TextBox>
+                    <TextBox Name="TxbLogin" Width="100" Height="25"></TextBox>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
                     <TextBlock Width="160"> Введите пароль:</TextBlock>
-                    <TextBox Name="TxbPassword" Width="100" Visibility="Collapsed"  Height="25" FontFamily="Arial" FontSize="20"></TextBox>
-                    <PasswordBox Name="PsbPassword" Width="100" Height="25" FontFamily="Arial" FontSize="20" ></PasswordBox>
-                </StackPanel>               
+                    <TextBox Name="TxbPassword" Width="100" Visibility="Hidden" Height="25"></TextBox>
+                    <PasswordBox Name="PsbPassword" Width="100" Height="25" Margin="-100 0 0 0">                  
+                    </PasswordBox>
+                    <Button Width="25" Height="25" x:Name="ShowPass" Style="{StaticResource GreyButton}" Click="ShowPass_Click" HorizontalAlignment="Right" Margin="0 0 0 0">
+                        <Image Source="/Resources/view.png"></Image>
+                    </Button>
+                    <Button Width="25" Height="25" x:Name="SeekPass" Style="{StaticResource GreyButton}"  Click="SeekPass_Click" Visibility="Collapsed"  HorizontalAlignment="Right" Margin="-25 0 0 0">
+                        <Image Source="/Resources/hide.png"/>
+                    </Button>
+
+                </StackPanel>
+
                 
-                <TextBlock Text="Show Password" x:Name="TbxShowPass" MouseDown="TbxShowPass_MouseDown" MouseUp="TbxShowPass_MouseUp" ></TextBlock>
-                <Button Name="BtnInLogin" Click="BtnInLogin_Click">Войти
-                    <Button.Background>
-                        <!--Настройки градиента-->
-                        <RadialGradientBrush RadiusX="1" RadiusY="1" >
-                            <GradientStop Color="White" Offset="0.313" />
-                            <GradientStop Color="#FFC3BDBD" Offset="1" />
-                        </RadialGradientBrush>
-                    </Button.Background>
-                </Button>
             </StackPanel>
+           
+            <Button Width="200"  Name="BtnInLogin" Click="BtnInLogin_Click" Style="{StaticResource GreyButton}">
+                <Button.Effect>
+                    <DropShadowEffect BlurRadius = "10" ShadowDepth = "5"/>
+                </Button.Effect>
+                Войти
+            </Button>
         </StackPanel>
        
     </Grid>

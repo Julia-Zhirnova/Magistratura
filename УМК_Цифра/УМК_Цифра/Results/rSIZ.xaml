@@ -9,6 +9,12 @@
       Title="rSIZ">
 
     <Grid>
-        
+        <ScrollViewer Grid.Row="1">
+            <StackPanel Grid.Row="1">
+                <TextBlock FontWeight="SemiBold" FontSize="36" > Добавление техники безопасности</TextBlock>
+                <Grid Background="#FF80D3D3" Height="10" VerticalAlignment="Bottom" Margin="10"></Grid>
+                <Image Source="/Resources/результат/Шаблон.jpg" Stretch="Fill" ></Image>
+            </StackPanel>
+        </ScrollViewer>
     </Grid>
 </Page>
